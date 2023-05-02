@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MedLife</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Login">Login</string>
+    <string name="Username">Username</string>
+    <string name="Enter_Username">Enter Username</string>
+    <string name="Password">Password</string>
+    <string name="Enter_Password">Enter Password</string>
+    <string name="Register">Register</string>
+    <string name="Register_yourself">Register Here</string>
+    <string name="Name">Name</string>
+    <string name="Enter_Name">Enter Name</string>
+    <string name="Age">Age</string>
+    <string name="Enter_Age">Enter Age</string>
+    <string name="Phone">Phone Number</string>
+    <string name="Enter_Phone">Enter Phone No.</string>
+    <string name="City">City</string>
+    <string name="Enter_City">Enter_City</string>
+    <string name="Confirm">Confirm Password</string>
+    <string name="Enter_Confirm">Re-enter Password</string>
+    <string name="Register_Now">Register Now</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="Select">Choose</string>
+    <string name="Confirm1">Confirm</string>
+    <string name="welcome">Welcome</string>
+    <string name="Prescription">Prescription</string>
+    <string name="Appointment">Appointment</string>
+    <string name="Record">Record</string>
+
+
+</resources>
