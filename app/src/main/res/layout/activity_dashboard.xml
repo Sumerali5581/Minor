@@ -7,36 +7,28 @@
     android:background="@drawable/background8"
     tools:context=".Dashboard">
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/welcome"
-        android:textColor="@color/black"
-        android:textSize="34sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="1dp" />
-
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="411dp"
-        android:layout_height="163dp"
+        android:layout_width="0dp"
+        android:layout_height="182dp"
         android:contentDescription="@string/Record"
         android:onClick="@string/Record"
         app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/record" />
+        app:srcCompat="@drawable/record"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="413dp"
-        android:layout_height="175dp"
+        android:layout_width="0dp"
+        android:layout_height="196dp"
         android:contentDescription="@string/Appointment"
         android:onClick="@string/Appointment"
         app:layout_constraintBottom_toTopOf="@+id/textView19"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/appointment" />
 
@@ -49,17 +41,18 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="409dp"
-        android:layout_height="181dp"
+        android:layout_width="0dp"
+        android:layout_height="174dp"
         android:contentDescription="@string/Prescription"
         android:onClick="@string/Prescription"
         app:layout_constraintBottom_toTopOf="@+id/textView18"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/prescription" />
 
@@ -72,7 +65,9 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView20"
@@ -83,6 +78,29 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Dashboard"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
+        app:layout_constraintStart_toStartOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

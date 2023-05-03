@@ -29,10 +29,23 @@
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="Select">Choose</string>
     <string name="Confirm1">Confirm</string>
-    <string name="welcome">Welcome</string>
+    <string name="welcome">Welcome </string>
     <string name="Prescription">Prescription</string>
     <string name="Appointment">Appointment</string>
-    <string name="Record">Record</string>
-
+    <string name="Record">Records</string>
+    <string name="Temp">Temperature</string>
+    <string name="Max_Temp">Max Temperature :</string>
+    <string name="Min_Temp">Min Temperature :</string>
+    <string name="Avg">Avg. Pulse Rate : </string>
+    <string name="Back">Back</string>
+    <string name="Medical">Medical Prescription</string>
+    <string name="Select_Date">Select Date</string>
+    <string name="Patient_Name">Patient Name : </string>
+    <string name="Enter">Enter Patient Name</string>
+    <string name="Date">Date : </string>
+    <string name="Enter_Date">Enter Date</string>
+    <string name="Write">Write Prescription Here</string>
+    <string name="Save">Save</string>
+    <string name="Dashboard">Dashboard</string>
 
 </resources>
