@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Doctor_Appointment"
+    tools:context=".Confirm_Prescription"
     android:background="@drawable/background8"
     >
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbar7"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -20,66 +20,54 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/textView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Appointment"
+        android:text="@string/Medical"
         android:textColor="@color/black"
         android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-        app:layout_constraintStart_toStartOf="@+id/toolbar"
-        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/textView45"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Confirm2"
+        android:text="@string/Select_Date"
         android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="74dp"
+        tools:layout_editor_absoluteY="108dp"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="409dp"
-        android:layout_height="277dp"
-        android:hint="@string/Request"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="113dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="0dp"
-        android:layout_height="232dp"
-        android:hint="@string/Accept"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="405dp"
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:entries="@android:array/emailAddressTypes"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="108dp"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:text="@string/Confirm1"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+        tools:layout_editor_absoluteY="226dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="80dp"
+        android:layout_marginEnd="84dp"
         android:text="@string/Back"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView41" />
-
+        tools:layout_editor_absoluteY="226dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

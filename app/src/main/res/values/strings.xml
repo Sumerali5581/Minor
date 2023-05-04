@@ -47,5 +47,24 @@
     <string name="Write">Write Prescription Here</string>
     <string name="Save">Save</string>
     <string name="Dashboard">Dashboard</string>
+    <string name="Confirm2">Confirm the appointments</string>
+    <string name="Request">Appointment requests will be seen here...</string>
+    <string name="Accept">Enter the patients ID whose appointment is to be confirmed</string>
+    <string name="Details">Select details for appointment</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
 </resources>

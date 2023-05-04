@@ -9,8 +9,8 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="0dp"
-        android:layout_height="182dp"
+        android:layout_width="411dp"
+        android:layout_height="169dp"
         android:contentDescription="@string/Record"
         android:onClick="@string/Record"
         app:layout_constraintBottom_toTopOf="@+id/textView20"
@@ -83,8 +83,8 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="413dp"
+        android:layout_height="56dp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -101,6 +101,7 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
         app:layout_constraintStart_toStartOf="@+id/toolbar5"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

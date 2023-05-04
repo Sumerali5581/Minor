@@ -12,6 +12,21 @@
         android:theme="@style/Theme.MedLife"
         tools:targetApi="31">
         <activity
+            android:name=".Confirm_Prescription"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_prescription"
+            android:exported="false" />
+        <activity
+            android:name=".Prescription"
+            android:exported="false" />
+        <activity
+            android:name=".Patient_Appointment"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Appointment"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity
