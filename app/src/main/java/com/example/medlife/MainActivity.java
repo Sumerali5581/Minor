@@ -25,6 +25,14 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText name;
+    EditText age;
+    EditText phone;
+    EditText city;
+    EditText username;
+    EditText pass;
+    EditText confirm_pass;
+
     private AppBarConfiguration appBarConfiguration;
 
     //To redirect on register page
@@ -71,9 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
         //setSupportActionBar(binding.toolbar);
 
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+
 
         binding.coordinatorLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,44 +88,19 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        MyDbHandler db=new MyDbHandler(MainActivity.this);
-
-        App sumer=new App();
-        sumer.setName("Sumer");
-        sumer.setAge(19);
-        sumer.setCity("Pusad");
-        sumer.setPhone("9011974422");
-        sumer.setPass("root");
-
-        db.addUser(sumer);
+//        MyDbHandler db=new MyDbHandler(MainActivity.this);
+//
+//        App sumer=new App();
+//        sumer.setName("Sumer");
+//        sumer.setAge(19);
+//        sumer.setCity("Pusad");
+//        sumer.setPhone("9011974422");
+//        sumer.setPass("root");
+//
+//        db.addUser(sumer);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+
+
+
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        return NavigationUI.navigateUp(navController, appBarConfiguration)
-                || super.onSupportNavigateUp();
-    }
-}

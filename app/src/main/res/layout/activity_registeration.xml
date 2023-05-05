@@ -9,17 +9,6 @@
     tools:context=".Registeration">
 
     <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Register_Now"
-        android:textColor="@color/black"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="511dp"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
         android:id="@+id/textView"
         android:layout_width="370dp"
         android:layout_height="74dp"
@@ -116,7 +105,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/name"
         android:layout_width="329dp"
         android:layout_height="42dp"
         android:ems="10"
@@ -128,7 +117,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/age"
         android:layout_width="363dp"
         android:layout_height="41dp"
         android:ems="10"
@@ -140,7 +129,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/phone"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -148,10 +137,10 @@
         android:inputType="textPersonName"
         android:textAlignment="center"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/age" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/city"
         android:layout_width="354dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -163,7 +152,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/username"
         android:layout_width="277dp"
         android:layout_height="47dp"
         android:ems="10"
@@ -175,7 +164,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/pass"
         android:layout_width="277dp"
         android:layout_height="43dp"
         android:layout_marginStart="4dp"
@@ -188,7 +177,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/confirm_pass"
         android:layout_width="192dp"
         android:layout_height="43dp"
         android:ems="10"
@@ -198,4 +187,14 @@
         app:layout_constraintStart_toEndOf="@+id/textView14"
         tools:layout_editor_absoluteY="437dp"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Register_Now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_pass" />
 </androidx.constraintlayout.widget.ConstraintLayout>
